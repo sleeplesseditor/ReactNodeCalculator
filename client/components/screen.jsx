@@ -3,7 +3,7 @@ import ScreenRow from './screenRow';
 
 const Screen = (props) => {
     return (
-        <div className="screen">
+        <div className="screen row">
             <ScreenRow value={props.question}/>
             <ScreenRow value={props.answer}/>
         </div>

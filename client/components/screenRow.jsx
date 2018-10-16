@@ -3,7 +3,7 @@ import React from 'react';
 const ScreenRow = (props) => {
   return (
     <div className="screen-row">
-      <input type="text" readOnly value={props.value}/>
+      <input className={`${props.className} col-xs-12`} type="text" readOnly value={props.value}/>
     </div>
   )
 }
